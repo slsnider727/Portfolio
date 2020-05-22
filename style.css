@@ -1,0 +1,240 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+h3 {
+  color: #384058;
+}
+
+rect {
+  fill: #465067;
+}
+
+.bg-dark {
+  background-color: #465067!important;
+}
+
+.bg-light {
+  background-color: #FAF5FA!important;
+}
+
+.btn {
+  background-color: #5E446B;
+  border-color: #5E446B;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #8E7997;
+  border-color: #8E7997;
+  color: white;
+  text-decoration: none;
+}
+
+#headerpicture {
+    background-image: url(assets/lavenderfield.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    display: block;
+    height: 20em;
+    width: 100%;
+}
+
+
+
+/*Navigation Bar*/
+.nav-link {
+  padding-top: .75rem;   /*Check if I need this section*/
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+#sidenav {
+  height: 100%; /* Full-height*/
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0; /*Stay to the right*/
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  min-width: 263.8px;
+  text-align: center!important;
+}
+
+/* The navigation menu links */
+#sidenav a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #9EA8B3;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#developertag {
+  font-size: 18px;
+}
+
+.navfooter {
+  width: 100%;
+}
+
+.navfooter ul {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0!important;
+}
+
+.navfooter li {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+
+.navfooter img {
+  color: white;
+  height: 32px;
+}
+/*End Navigation Bar*/
+
+
+
+/*Next 5 lines just for if I need to use them later.*/
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+
+/*Main/About/Project section*/
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+
+  text {
+    padding-left: 1.25rem;
+    font-size: 1.1em;
+  }
+
+  .card-text {
+    font-size: 0.9em;
+  }
+
+  .viewbutton {
+    color: white;
+  }
+
+  .viewbutton:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .flexcard {
+    display: flex;
+    width: 348px;
+  }
+/*End Main/About/Project Section*/
+
+
+
+
+/*Contact Form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+textarea {
+  height: 10em;
+}
+
+.halffields {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.formname {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 4px;
+}
+
+.formemail {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 4px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color and some padding around the form */
+#contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*End contact form*/
+
+
+  /*Footer*/
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  /*End Footer*/

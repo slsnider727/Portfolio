@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Sabra Leigh Snider</title>
+</head>
+
+<body>
+
+  <!--Nav Bar-->
+  <nav class="navbar navbar-dark bg-dark col-md-2" id="sidenav"> <!--ID was "header"-->
+    <a class="navbar-brand mr-auto mr-lg-0 navbar-collapse" href="#" >Sabra Leigh Snider<br><span id="developertag">Software Developer</span></a>
+    <div class="navbar-collapse offcanvas-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navfooter navbar-brand mr-auto mr-lg-0">
+      <ul class="icons">
+        <li>
+          <a href="https://github.com/slsnider727" target="blank"><img src="assets/GitHub-Mark-Light-32px.png" placeholder="GitHub"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sabra-snider" target="blank"><img src="assets/LI-In-Bug.png" placeholder="LinkedIn"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="col-md-10" id="headerpicture"></div>
+  <main role="main" class="col-md-10">
+    <!--Projects-->
+    <section class="jumbotron" id="about">
+      <div class="container">
+
+        <h1>Hi there!</h1>
+        <p class="lead text-muted about-text">This is my about section where I introduce myself. I have a well-rounded education
+          and was really good at being a PTA, but I didn't enjoy it. Software development provided a different outlet
+          for me to use my problem solving skills, and I absolutely fell in love with it.</p>
+        <p class="lead text-muted about-text">This is where I briefly tell you about my strengths. I am an excellent problem solver
+          and have experience collaborating with a large team across multiple disciplines and locations. I have worked
+          with HTML 5, CSS, Boostrap 4, C#, and some Python.</p>
+        <p>
+          <a href="assets/Resume.pdf" target="blank" class="btn btn-primary my-2">View My Resume</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light" id="projects">
+      <div class="container">
+        <div class="row flex-container">
+          
+          <div class="flexcard">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/CSSCreatureScreenCap.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>CSS Creature</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">CSS
+                  Creature</text>
+              <div class="card-body">
+                <p class="card-text text-muted">This is my first-ever CSS project.</p> <!--Remove text-muted tag to put back to black-->
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a class="viewbutton"
+                        href="https://codepen.io/slsnider727/pen/KKdqJmz" target="blank">View</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flexcard">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/StoreFrontScreenCap.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Static Store Front</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Static
+                  Store Front</text>
+              <div class="card-body">
+                <p class="card-text text-muted">This static storefront page was an exercise to practice my skills in HTML and CSS.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://slsnider727.github.io/StoreFront/" class="viewbutton" target="blank">View</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flexcard">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/NumberGameScreenCap.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Number Game</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Number Game</text>
+            <div class="card-body">
+              <p class="card-text text-muted">In this C# project, I built a game in which the player tries to guess a random number of the computer's choosing.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/slsnider727/Number-Game" target="blank" class="viewbutton">View</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="flexcard">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/GoldBadgeChallenges.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Gold Badge Challenge</text>
+              <div class="card-body">
+                <p class="card-text text-muted">This collection of console apps showcases what I learned in my first 4 weeks at Eleven Fifty Academy.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#" class="viewbutton">View</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flexcard">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/Placeholder.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Red
+                  Badge TBA</text>
+              <div class="card-body">
+                <p class="card-text text-muted">More projects coming soon!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#" class="viewbutton">View</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flexcard">
+            <div class="card mb-4 shadow-sm">
+              <img src="assets/Placeholder.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Blue
+                  Badge TBA</text>
+              <div class="card-body">
+                <p class="card-text text-muted">More projects coming soon!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#" class="viewbutton">View</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+    <!--Contact Form-->  
+      <div class="container" id="contact">
+        <h3>Contact Me</h3>
+      <form action="https://formspree.io/mdowkpkp" method="POST">
+        <div class="halffields">
+        <div class="formname"><input type="text" name="_NameOfSender" class="contactform" placeholder="Name"></div>
+        <div class="formemail"><input type="text" name="_replyTo" class="contactform" placeholder="E-mail"></div>
+        </div>
+        <input type="text" name="_subject" class="contactform" placeholder="Subject">
+        <textarea name="message" class="contactform" placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      </div>
+    <!--End contact Form-->
+
+    </div>
+
+    <!--Footer-->
+    <footer class="text-muted">
+      <div class="container">
+        <p>&copy; 2020</p>
+      </div>
+    </footer>
+
+  </main>
+</body>
+
+</html>
