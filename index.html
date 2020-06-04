@@ -24,9 +24,9 @@
 
 <body>
 
-  <!--Nav Bar-->
-  <nav class="navbar navbar-dark bg-dark col-md-2" id="sidenav"> <!--ID was "header"-->
-    <a class="navbar-brand mr-auto mr-lg-0 navbar-collapse" href="#" >Sabra Leigh Snider<br><span id="developertag">Software Developer</span></a>
+  <!--Side Nav Bar-->
+  <nav class="navbar navbar-dark bg-dark col-md-2 d-none d-lg-block" id="sidenav"> <!--ID was "header"-->
+    <a class="navbar-nav mr-auto mr-lg-0 navbar-collapse" href="#">Sabra Leigh Snider<br><span id="developertag">Software Developer</span></a>
     <div class="navbar-collapse offcanvas-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
@@ -52,9 +52,21 @@
     </div>
   </nav>
 
+  <!--Collapsed Nav Bar-->
+  <div class="d-flex flex-column flex-md-row align-items-center px-md-4 d-lg-none" id="collapsebar">
+    <h5 class="my-0 mr-md-auto font-weight-normal p-3"><a>Sabra Leigh Snider</a></h5>
+    <nav class="my-2 my-md-0 mr-md-3" id="inline">
+      <a class="p-2" href="#about">About</a>
+      <a class="p-2" href="#projects">Projects</a>
+      <a class="p-2" href="#contact">Contact</a>
+    </nav>
+    <a href="https://github.com/slsnider727" target="blank"><img src="assets/GitHub-Mark-Light-32px.png" placeholder="GitHub"></a>
+    <a href="https://www.linkedin.com/in/sabra-snider" target="blank"><img src="assets/LI-In-Bug.png" placeholder="LinkedIn"></a>
+  </div>
 
-  <div class="col-md-10" id="headerpicture"></div>
-  <main role="main" class="col-md-10">
+
+  <div class="col-lg-10 col-md-12" id="headerpicture"></div>
+  <main role="main" class="col-lg-10 col-md-12">
     <!--Projects-->
     <section class="jumbotron" id="about">
       <div class="container">
@@ -149,7 +161,7 @@
               <img src="assets/Placeholder.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                 <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Red
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Blue
                   Badge TBA</text>
               <div class="card-body">
                 <p class="card-text text-muted">More projects coming soon!</p>
@@ -166,7 +178,7 @@
               <img src="assets/Placeholder.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                 <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Blue
+                <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Red
                   Badge TBA</text>
               <div class="card-body">
                 <p class="card-text text-muted">More projects coming soon!</p>

@@ -4,7 +4,7 @@ body {
 }
 
 h3 {
-  color: #384058;
+  color: #465067;
 }
 
 rect {
@@ -12,7 +12,7 @@ rect {
 }
 
 .bg-dark {
-  background-color: #465067!important;
+  background-color: #5E446B!important;
 }
 
 .bg-light {
@@ -45,24 +45,15 @@ rect {
 
 
 
-/*Navigation Bar*/
-.nav-link {
-  padding-top: .75rem;   /*Check if I need this section*/
-  padding-bottom: .75rem;
-  font-size: .875rem;
-  color: #6c757d;
-}
-
+/*Side Navigation Bar*/
 #sidenav {
   height: 100%; /* Full-height*/
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0; /*Stay to the right*/
-  background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
-  min-width: 263.8px;
   text-align: center!important;
 }
 
@@ -71,17 +62,17 @@ rect {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   font-size: 25px;
-  color: #9EA8B3;
+  color: #f1f1f1;
   display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 #sidenav a:hover {
-  color: #f1f1f1;
+  color: #9EA8B3;
 }
 
 #developertag {
-  font-size: 18px;
+  font-size: 18px!important;
 }
 
 .navfooter {
@@ -103,7 +94,34 @@ rect {
   color: white;
   height: 32px;
 }
-/*End Navigation Bar*/
+/*End Side Navigation Bar*/
+
+/*Collapsed Navigation Bar*/
+#collapsebar {
+  background-color: #5E446B;
+  color: #9EA8B3;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+#collapsebar a {
+  color: #f1f1f1;
+}
+#collapsebar a:hover {
+  color: #9EA8B3;
+  text-decoration: none;
+}
+#collapsebar img {
+  color: white;
+  height: 32px;
+  padding: 0 8px 0 8px;
+}
+#inline {
+  display: inline;
+  font-size: 1.25rem;
+}
+
+/*End Collapsed Navigation Bar*/
 
 
 
