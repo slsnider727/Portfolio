@@ -46,6 +46,21 @@ rect {
 
 
 /*Side Navigation Bar*/
+.profile-pic {
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  align-self: center;
+  margin: 1em;
+}
+.flex-nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 #sidenav {
   height: 100%; /* Full-height*/
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -97,6 +112,9 @@ rect {
 /*End Side Navigation Bar*/
 
 /*Collapsed Navigation Bar*/
+.dropdown-menu {
+  background-color: #5E446B
+}
 #collapsebar {
   background-color: #5E446B;
   color: #9EA8B3;
@@ -118,6 +136,9 @@ rect {
 }
 #inline {
   display: inline;
+  font-size: 1.25rem;
+}
+#dropdownMenuLink {
   font-size: 1.25rem;
 }
 

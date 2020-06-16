@@ -26,6 +26,8 @@
 
   <!--Side Nav Bar-->
   <nav class="navbar navbar-dark bg-dark col-md-2 d-none d-lg-block" id="sidenav"> <!--ID was "header"-->
+    <div class="flex-nav">
+    <img class="profile-pic" src="assets/tempprofile.jpg">
     <a class="navbar-nav mr-auto mr-lg-0 navbar-collapse" href="#">Sabra Leigh Snider<br><span id="developertag">Software Developer</span></a>
     <div class="navbar-collapse offcanvas-collapse">
       <ul class="navbar-nav mr-auto">
@@ -50,18 +52,24 @@
         </li>
       </ul>
     </div>
+    </div>
   </nav>
 
   <!--Collapsed Nav Bar-->
   <div class="d-flex flex-column flex-md-row align-items-center px-md-4 d-lg-none" id="collapsebar">
-    <h5 class="my-0 mr-md-auto font-weight-normal p-3"><a>Sabra Leigh Snider</a></h5>
-    <nav class="my-2 my-md-0 mr-md-3" id="inline">
-      <a class="p-2" href="#about">About</a>
-      <a class="p-2" href="#projects">Projects</a>
-      <a class="p-2" href="#contact">Contact</a>
-    </nav>
-    <a href="https://github.com/slsnider727" target="blank"><img src="assets/GitHub-Mark-Light-32px.png" placeholder="GitHub"></a>
-    <a href="https://www.linkedin.com/in/sabra-snider" target="blank"><img src="assets/LI-In-Bug.png" placeholder="LinkedIn"></a>
+    <div class="dropdown show">
+      <a class="btn dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Sabra Snider
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#about">About</a>
+        <a class="dropdown-item" href="#projects">Projects</a>
+        <a class="dropdown-item" href="#contact">Contact</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="https://github.com/slsnider727" target="blank"><img src="assets/GitHub-Mark-Light-32px.png" placeholder="GitHub"></a>
+        <a class="dropdown-item" href="https://www.linkedin.com/in/sabra-snider" target="blank"><img src="assets/LI-In-Bug.png" placeholder="LinkedIn"></a>
+      </div>
+    </div>
   </div>
 
 
@@ -72,12 +80,8 @@
       <div class="container">
 
         <h1>Hi there!</h1>
-        <p class="lead text-muted about-text">This is my about section where I introduce myself. I have a well-rounded education
-          and was really good at being a PTA, but I didn't enjoy it. Software development provided a different outlet
-          for me to use my problem solving skills, and I absolutely fell in love with it.</p>
-        <p class="lead text-muted about-text">This is where I briefly tell you about my strengths. I am an excellent problem solver
-          and have experience collaborating with a large team across multiple disciplines and locations. I have worked
-          with HTML 5, CSS, Boostrap 4, C#, and some Python.</p>
+        <p class="lead text-muted about-text">Thanks for taking a minute to get to know me. After several successful but unhappy years working as a Physical Therapy Assistant, I ventured out in the spring of 2020 to try something new. I joined Eleven Fifty Academy's software development course and quickly fell in love with writing code.</p>
+        <p class="lead text-muted about-text">It turns out that the skills that helped me excel as a PTA are the same for software development. I'm an excellent problem solver, am task-oriented, and a lifelong learner. I also have experience collaborating with a large team across multiple disciplines and locations to achieve goals. I have worked with HTML, CSS, Boostrap, C#, ASP.NET, and some Python.</p>
         <p>
           <a href="assets/Resume.pdf" target="blank" class="btn btn-primary my-2">View My Resume</a>
         </p>
@@ -96,7 +100,7 @@
                 <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">CSS
                   Creature</text>
               <div class="card-body">
-                <p class="card-text text-muted">This is my first-ever CSS project.</p> <!--Remove text-muted tag to put back to black-->
+                <p class="card-text text-muted">This is one of my first-ever projects in which I learned to manipulate several features in CSS.</p><br> <!--Remove text-muted tag to put back to black-->
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a class="viewbutton"
@@ -115,7 +119,7 @@
                   Store Front</text>
               <div class="card-body">
                 <p class="card-text text-muted">This static storefront page was an exercise to practice my skills in HTML and CSS.
-                </p>
+                </p><br>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://slsnider727.github.io/StoreFront/" class="viewbutton" target="blank">View</a></button>
@@ -158,13 +162,13 @@
           </div>
           <div class="flexcard">
             <div class="card mb-4 shadow-sm">
-              <img src="assets/Placeholder.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              <img src="assets/BlueBadge.png" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
                 <title>Placeholder</title>
                 <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Blue
-                  Badge TBA</text>
+                  Badge Challenge</text>
               <div class="card-body">
-                <p class="card-text text-muted">More projects coming soon!</p>
+                <p class="card-text text-muted">Create, manage, and rate the attractions at a theme park with this ASP.NET Web API.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#" class="viewbutton">View</a></button>
@@ -181,7 +185,7 @@
                 <rect width="100%" height="100%" fill="#55595c" /><text class="text-muted" x="50%" y="50%" fill="#eceeef" dy=".3em">Red
                   Badge TBA</text>
               <div class="card-body">
-                <p class="card-text text-muted">More projects coming soon!</p>
+                <p class="card-text text-muted">More projects coming soon!</p><br><br> 
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#" class="viewbutton">View</a></button>
