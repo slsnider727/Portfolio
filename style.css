@@ -47,8 +47,7 @@ rect {
 
 /*Side Navigation Bar*/
 .profile-pic {
-  max-height: 200px;
-  max-width: 200px;
+  max-width: 90%;
   border-radius: 50%;
   align-self: center;
   margin: 1em;
